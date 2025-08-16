@@ -1,7 +1,7 @@
 # 🔎 AI Log Analyzer (Free, Local)
 
 A lightweight **Generative-AI-powered** log analyzer you can run entirely **for free** on your machine.  
-Built with **FastAPI + ChromaDB + SentenceTransformers** and a **local LLM (Ollama)** — no paid APIs.
+Built with **FastAPI + ChromaDB + SentenceTransformers** and a **local LLM (Ollama)** ,no paid APIs.
 
 ## Features
 - **Upload** log files (text)
