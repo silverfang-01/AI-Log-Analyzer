@@ -1,0 +1,71 @@
+# # Virtual environments
+# .venv
+
+---
+
+### `.gitignore`
+```gitignore
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# uv / venv
+.venv/
+uv.lock
+
+# App data
+.chronadb/
+.chromadb/
+logs/
+*.log
+
+# Models & large artifacts
+models/
+*.gguf
+*.bin
+*.pt
+*.onnx
+
+# Data
+data/*.log
+data/*.txt
+!data/sample.log        # keep the sample in repo
+data/ingested.csv
+
+# Frontend (optional future React)
+frontend/node_modules/
+frontend/.next/
+frontend/dist/
+frontend/build/
+
+# Streamlit state
+.streamlit/
+
+# OS-specific caches
+ehthumbs.db
+Icon?
+
